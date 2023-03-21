@@ -1,0 +1,36 @@
+@keyframes moveBtnAnimation {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+      transform: translateY(20px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
+}
+
+.scroll-icon {
+  position: fixed;
+	bottom: 40px;
+	right: 25px;
+	z-index: 20;
+
+	background-color: #FCFCFD;
+	border: 2px solid #ec4755;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	color: #ec4755;
+	cursor: pointer;
+	animation: 3s ease-in-out infinite;
+	transition: all 0.5s ease-in-out;
+	animation-name: 'moveBtnAnimation';
+	animation-iteration-count: infinite;
+}
+
+.scroll-icon:hover {
+  background: #ec4755;
+  color: #FCFCFD;
+  border: 2px solid #FCFCFD;
+}
