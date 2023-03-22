@@ -28,7 +28,7 @@ const JobExperience = () => {
                     <div className="w-full sm:w-1/2 sm:pr-8">
                       <div className="p-4 bg-white rounded shadow transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
                         <div className="text-primary">Flux IT</div>
-                        <p className="mb-2">2011 until now</p>
+                        <p className="mb-2">2021 until now</p>
                         <p>Frontend Developer</p>
                         <p>
                           React, Typescript, Redux, Sass, React Testing Library
