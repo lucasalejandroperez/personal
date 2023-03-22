@@ -15,7 +15,8 @@ const MainHero = () => {
         </h1>
         {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"> */}
         <div className="text-gray-500 my-0 mt-4 sm:mt-0">
-          +3 years in <strong>React, Javascript, Typescript, Redux.</strong>
+          +3 years in{' '}
+          <strong>React, Javascript, Typescript, Redux, Next.js.</strong>
         </div>
         <div className="text-gray-500 my-0">
           Sass, Styled Components, Material UI, Tailwind.

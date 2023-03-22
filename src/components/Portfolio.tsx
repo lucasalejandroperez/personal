@@ -224,7 +224,7 @@ const Portfolio = () => {
               <span
                 className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
               >
-                etirment Plan
+                etirement Plan
               </span>
               <div>
                 <p className={`text-gray-600 mb-8`}>React application</p>

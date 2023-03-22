@@ -31,7 +31,8 @@ const JobExperience = () => {
                         <p className="mb-2">2021 until now</p>
                         <p>Frontend Developer</p>
                         <p>
-                          React, Typescript, Redux, Sass, React Testing Library
+                          React, Typescript, Redux, Sass, Next, React Testing
+                          Library
                         </p>
                         <p className="mt-2">
                           Working on several internal apps of the company

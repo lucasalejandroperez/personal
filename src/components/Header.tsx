@@ -69,7 +69,7 @@ const Menu = () => {
                 to={'contactme'}
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                Conctact me
+                Contact me
               </Link>
             </div>
           </nav>
