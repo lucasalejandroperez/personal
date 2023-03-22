@@ -5,7 +5,7 @@ import config from '../config/index.json';
 const MainHero = () => {
   const { mainHero } = config;
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main className="mt-10 mx-auto max-w-7xl pl-3 pr-16 sm:mt-12 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
           <span className="block xl:inline">{mainHero.title}</span>{' '}
@@ -14,27 +14,31 @@ const MainHero = () => {
           </span>
         </h1>
         {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"> */}
-        <p className="text-gray-500">
+        <div className="text-gray-500 my-0 mt-4 sm:mt-0">
           +3 years in <strong>React, Javascript, Typescript, Redux.</strong>
-          <br />
+        </div>
+        <div className="text-gray-500 my-0">
           Sass, Styled Components, Material UI, Tailwind.
-          <br />
+        </div>
+        <div className="text-gray-500 my-0">
           Experience in Git, GitHub, GitLab, GitFlow.
-          <br />
-          Jest, React testing library.
-          <br />
+        </div>
+        <div className="text-gray-500 my-0">Jest, React testing library.</div>
+        <div className="text-gray-500 my-0">
           Knowledge of sockets with Socket.io.
-          <br />
+        </div>
+        <div className="text-gray-500 my-0">
           Develop using Scrum and Kanban (Scrum Master certified).
-          <br />
+        </div>
+        <div className="text-gray-500 my-0">
           +10 years experience in C#, ASP.NET, WinForms, API Rest, SQL Server,
           EF.
-          <br />
+        </div>
+        <div className="text-gray-500 my-0">
           +1 year in Blockchain World, Solidity Smart Contracts, EthersJs,
           Hardhat.
-        </p>
-        {/* </p> */}
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        </div>
+        <div className="mt-10 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
