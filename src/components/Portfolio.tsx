@@ -32,17 +32,17 @@ const Portfolio = () => {
         >
           <div className={`w-6/6 sm:w-1/2 p-6`}>
             <span className={`text-3xl text-primary font-bold leading-none`}>
-              G
+              E
             </span>
             <span
               className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
             >
-              ame Battle Avax Gods
+              nefBattle
             </span>
             <div>
               <p className={`text-gray-600 mb-8`}>React application</p>
               <p>
-                Avax Gods is a turn-based game, hosted on the Avalanche
+                EnefBattle is a turn-based game, hosted on the Avalanche
                 blockchain.
               </p>
               <div className="flex gap-4 mt-4">
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <span className="mr-6">
                   <a
                     aria-label="github"
-                    href="https://github.com/lucasalejandroperez/avaxgods"
+                    href="https://github.com/lucasalejandroperez/EnefBattle"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -77,7 +77,7 @@ const Portfolio = () => {
                 </span>
                 <span>
                   <a
-                    href="https://avaxgods-lap.netlify.app/"
+                    href="https://enefbattle.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-primary"
@@ -90,12 +90,16 @@ const Portfolio = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6 opacity-100 hover:opacity-80`}>
             <Tilt>
-              <img className="h-6/6" src={portfolio.avax_img} alt="AVAX Gods" />
+              <img
+                className="h-6/6"
+                src={portfolio.enefbattle_img}
+                alt="Enef Battle"
+              />
             </Tilt>
           </div>
         </div>
         <div
-          className={`flex flex-wrap ml-8 flex-col-reverse sm:flex-row mb-8 border rounded`}
+          className={`flex flex-wrap ml-8 mr-8 mb-8 flex-col-reverse sm:flex-row md:mr-0 md:ml-0 border rounded`}
         >
           <div className={`w-full sm:w-1/2 p-6  opacity-100 hover:opacity-80`}>
             <Tilt>
