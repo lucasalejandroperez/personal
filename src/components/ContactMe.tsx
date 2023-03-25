@@ -5,7 +5,7 @@ import config from '../config/index.json';
 const ContactMe = () => {
   return (
     <section className={`bg-background pt-8`} id="contactme">
-      <div className="px-2 pt-4 pb-12">
+      <div className="px-2 pt-2 md:pb-4 mx-auto m-8">
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
@@ -17,14 +17,14 @@ const ContactMe = () => {
           ></div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center px-8 md:px-0">
         <img
           src={config.company.lucas}
           alt="Lucas Perez"
           className="h-auto max-w-full  rounded-full"
         />
       </div>
-      <div className="flex justify-center gap-2 mr-4 ml-4">
+      <div className="flex justify-center gap-2 mr-4 ml-4 px-8 md:px-0">
         <div>
           <div className="text-border">
             <strong>Lucas Perez</strong>
