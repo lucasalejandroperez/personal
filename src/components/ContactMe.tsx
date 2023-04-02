@@ -21,7 +21,7 @@ const ContactMe = () => {
         <img
           src={config.company.lucas}
           alt="Lucas Perez"
-          className="h-auto max-w-full  rounded-full"
+          className="h-auto max-w-full"
         />
       </div>
       <div className="flex justify-center gap-2 mr-4 ml-4 px-8 md:px-0">
